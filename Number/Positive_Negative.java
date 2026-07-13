@@ -6,7 +6,7 @@ class Positive_Negative{
         
    
     Scanner s = new Scanner(System.in);
-    System.out.println("Enter the numeber:");
+    System.out.println("Enter the number:");
     int n = s.nextInt();
     if(n > 0){
         System.out.println("The number is Positive");
