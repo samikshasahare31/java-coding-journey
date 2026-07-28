@@ -12,7 +12,7 @@ class Armstrong_range {
         System.out.println("Enter the ending number:");
         int end = s.nextInt();
 
-        System.out.println("Armstrong numbers are:");
+        System.out.println("Armstrong numbers are :");
         for (int i = start; i < end; i++) {
             int temp = i;
             int sum = 0;
@@ -21,13 +21,12 @@ class Armstrong_range {
                 rem = temp % 10;
                 sum = sum + (rem * rem * rem);
                 temp = temp / 10;
-                   
-                    }
-                
-            
-                if (sum==i){
+
+            }
+
+            if (sum == i) {
                 System.out.println(i);
+            }
         }
     }
-}
 }
